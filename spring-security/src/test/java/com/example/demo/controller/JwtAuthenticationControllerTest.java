@@ -21,12 +21,9 @@ class JwtAuthenticationControllerTest {
 
     private MockMvc mockMvc;
 
-    @Test
-    void createAuthenticationToken() {
-    }
 
     @Test
-    void saveUser() throws Exception{
+    void testsaveUser() throws Exception{
         UserDao user=new UserDao();
         user.setUsername("tia");
         user.setPassword("tia@123");
